@@ -1,0 +1,53 @@
+header, footer {
+  font-family: 'Ubuntu', sans-serif;
+}
+ul.nav {
+	padding: 35px 0px 0px 220px;
+  font-family: 'Arvo', serif;
+}
+.nav-pills > li > a {
+  border-radius: 4px;
+  color: #000000;
+}
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #4d4d4d;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('images/jumbotron.jpeg');
+  background-size: cover;
+  height: 500px;
+}
+section.container {
+  margin: 100px auto 100px auto;
+  font-family: 'Arvo', serif;
+}
+h3, h4.container {
+  font-weight: bolder;
+}
+p, li {
+  font-style: italic;
+  color: #999999;
+}
+p {
+  padding: 10px 10px 10px 10px;
+}
+footer {
+  height: 70px;
+}
+#disp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 36px;
+}
+.ope, .add, .map {
+  padding: 10px 5px 10px 5px;
+}
